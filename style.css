@@ -38,3 +38,25 @@ p {
     color:#402e32;
     line-height: 1.25em;
 }
+
+nav, #nav-menu {
+    display: flex;
+    font-family:sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal; 
+}
+
+nav {
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+#nav-menu {
+    gap:2em;
+    list-style: none;
+    font-size: 1.15em;
+    text-transform: uppercase;
+
+}
